@@ -1,0 +1,5 @@
+<div>
+  <div class="col-lg-4" *ngFor="let cartoons of cartoonList; let i = index">
+    <a><img src={{cartoons.image}} (click)="describe(i)"/></a>
+  </div>
+</div>
